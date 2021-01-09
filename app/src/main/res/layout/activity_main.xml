@@ -19,35 +19,23 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
-        android:id="@+id/askingViewText"
-        android:layout_width="202dp"
-        android:layout_height="28dp"
-        android:layout_marginTop="76dp"
-        android:text="Do you have an account?"
-        android:textSize="18sp"
+    <Button
+        android:id="@+id/yesBtn"
+        android:layout_width="130dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="164dp"
+        android:text="Login"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/welcomeText" />
 
     <Button
-        android:id="@+id/yesBtn"
-        android:layout_width="130dp"
-        android:layout_height="80dp"
-        android:layout_marginTop="80dp"
-        android:text="Yes"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/askingViewText" />
-
-    <Button
         android:id="@+id/noBtn"
         android:layout_width="130dp"
         android:layout_height="80dp"
         android:layout_marginTop="40dp"
-        android:text="No"
+        android:text="Register"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
