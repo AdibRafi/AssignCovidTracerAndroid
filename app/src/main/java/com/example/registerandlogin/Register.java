@@ -13,7 +13,14 @@ import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
+/**
+ * This class is for Displaying Register Window
+ */
 public class Register extends AppCompatActivity {
+    /**
+     * Displaying Register Window
+     * @param savedInstanceState Register Window
+     */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -23,6 +30,10 @@ public class Register extends AppCompatActivity {
 
         Button registerBtn = (Button) findViewById(R.id.registerBtn);
         registerBtn.setOnClickListener(new View.OnClickListener() {
+            /**
+             * Assigning the info into Info class
+             * @param v Register Button
+             */
             public void onClick(View v) {
                 EditText getFirst = (EditText) findViewById(R.id.firstNameEnter);
                 EditText getLast = (EditText) findViewById(R.id.lastNameEnter);

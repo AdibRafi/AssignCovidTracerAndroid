@@ -11,8 +11,15 @@ import android.widget.TextView;
 
 import java.io.IOException;
 
+/**
+ * This class if for displaying Login
+ */
 public class Login extends AppCompatActivity {
 
+    /**
+     * Displaying Login
+     * @param savedInstanceState Login window
+     */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -21,6 +28,10 @@ public class Login extends AppCompatActivity {
 
         Button loginBtn = (Button) findViewById(R.id.loginBtn);
         loginBtn.setOnClickListener(new View.OnClickListener() {
+            /**
+             * Getting the info from the user to use for Sign in
+             * @param v The Button Log in
+             */
             public void onClick(View v) {
 
                 TextView checkView = (TextView)findViewById(R.id.checkViewLogin);
